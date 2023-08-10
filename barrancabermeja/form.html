@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./about.html">Sobre mi ciudad</a></li>
+            <li><a href="./visits_activities.html">Actividades</a></li>
+            <li><a href="./accommodation.html">Hotelería</a></li>
+            <li><a href="./entertainment.html">Entretenimiento</a></li>
+            <li><a href="./form.html" target="_blank">Contactanos!</a></li>
+        </ul>
+    </nav>
+    <h1>Formulario</h1>
+    <form action="mailto:tucorreoelectronico@correo.com" method="post">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="" id="email" placeholder="correo@mail.com" required>
+        </div>
+        <div>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Esperamos tus comentarios sobre nuestra querida ciudad!" required></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
